@@ -4,7 +4,8 @@ Ce script est conçu pour extraire les avis d'Amazon en utilisant un lien d'avis
 
 Pour utiliser ce script, vous devez d'abord installer les modules 'requests' et 'bs4' en utilisant les commandes suivantes dans un terminal :
 
-![image](https://user-images.githubusercontent.com/116311276/212540921-6e9c1185-a7a2-426c-b9d7-3e24eb6abc9c.png)
+pip install requests
+pip install bs4
 
 Si vous rencontrez des problèmes ou souhaitez que des fonctionnalités supplémentaires soient ajoutées, n'hésitez pas à me contacter en privé sur Twitter : https://twitter.com/0xAshura667
 
@@ -15,6 +16,7 @@ This script is designed to scrape Amazon reviews using a review link and the des
 
 To use this script, you must first install the 'requests' and 'bs4' modules using the following commands in a terminal:
 
-![image](https://user-images.githubusercontent.com/116311276/212540921-6e9c1185-a7a2-426c-b9d7-3e24eb6abc9c.png)
+pip install requests
+pip install bs4
 
 If you have any issues or would like additional features to be added, please do not hesitate to contact me privately on Twitter: https://twitter.com/0xAshura667
