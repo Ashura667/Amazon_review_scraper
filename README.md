@@ -5,6 +5,7 @@ Ce script est conçu pour extraire les avis d'Amazon en utilisant un lien d'avis
 Pour utiliser ce script, vous devez d'abord installer les modules 'requests' et 'bs4' en utilisant les commandes suivantes dans un terminal :
 
 ![image](https://user-images.githubusercontent.com/116311276/212540921-6e9c1185-a7a2-426c-b9d7-3e24eb6abc9c.png)
+
 Si vous rencontrez des problèmes ou souhaitez que des fonctionnalités supplémentaires soient ajoutées, n'hésitez pas à me contacter en privé sur Twitter : https://twitter.com/0xAshura667
 
 
