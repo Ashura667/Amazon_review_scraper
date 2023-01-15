@@ -27,9 +27,13 @@ def function(url, numberofpage):
         for element in all_element:
             commentaire.append(element.find("span").text)
 
-function('https://www.amazon.fr/product-reviews/B00YUIM2J0/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',5)
-for element in commentaire:
-    print(element)
+def run(url, numberofpage):
+    function(url, numberofpage)
+    for element in commentaire:
+        print(element)
 
-fichier = open("avis.csv", "a+", encoding="utf8")
-fichier.write("\n".join(commentaire))
+    fichier = open("avis.csv", "a+", encoding="utf8")
+    fichier.write("\n".join(commentaire))
+
+
+run('https://www.amazon.fr/product-reviews/B00YUIM2J0/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',5)
